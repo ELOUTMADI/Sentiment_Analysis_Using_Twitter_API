@@ -1,4 +1,3 @@
-# About this project
 # Twitter Sentiment Analysis
 
 This code is for performing sentiment analysis on tweets using the Twitter API and Python. It includes two main functions: 
