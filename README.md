@@ -40,15 +40,17 @@ twitter_api = twitter.Api(consumer_key='YOUR_CONSUMER_KEY',
                         consumer_secret='YOUR_CONSUMER_SECRET',
                         access_token_key='YOUR_ACCESS_TOKEN_KEY',
                         access_token_secret='YOUR_ACCESS_TOKEN_SECRET')
-                       
+```                       
 You will also need to specify the file paths for FichierCorpus and FichierTweets in the Construire_Le_Training_Set function. These file paths should be updated to point to the location of the corresponding CSV files on your local machine.
 
 ## Example Usage
 Here is an example of how to use these functions:
 # Search for 100 tweets containing the keyword "happy"
+```
 Data_To_Use_For_Testing = Construction_Du_TestSet("happy")
-
+```
 # Retrieve and store tweets from a CSV file of tweet IDs
+```
 FichierCorpus = "path/to/corpus.csv"
 FichierTweets = "path/to/tweetDataFile.csv"
 Data_To_Use_For_Training  = Construire_Le_Training_Set(FichierCorpus, FichierTweets)
