@@ -53,6 +53,7 @@ Data_To_Use_For_Testing = Construction_Du_TestSet("happy")
 FichierCorpus = "path/to/corpus.csv"
 FichierTweets = "path/to/tweetDataFile.csv"
 Data_To_Use_For_Training  = Construire_Le_Training_Set(FichierCorpus, FichierTweets)
+```
 
 ## Additional Information
 - The Construction_Du_TestSet function uses the twitter_api.GetSearch method to search for tweets containing the specified keyword.
